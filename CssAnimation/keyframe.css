@@ -1,0 +1,46 @@
+body{
+	background-color: #333;
+}
+
+.box{
+	margin: auto;
+	margin-top: 200px;
+	background: white;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	animation-name: myanimation;
+	animation-duration: 4s;     /*duration time */
+	/* animation-duration: 2s;  */
+	animation-iteration-count: 2;  /*for iteration */
+	/* animation-iteration-count: 4; */
+	/* animation-iteration-count: infinite; */
+	animation-delay: 0s;
+	/* animation-delay: 5s; */
+	/* animation-direction: reverse; */
+	/* animation-direction: alternate; */
+	/* animation-direction: alternate-reverse; */
+	animation-timing-function: ease;    /*speed starting and ending*/
+	animation-timing-function: ease-out;  /*start fast end slow*/
+	animation-timing-function: ease-in;  /*start slow end fast*/
+	animation-fill-mode: forwards;
+	/* animation-fill-mode: backwards; */
+	
+}
+
+/* @keyframes myanimation{
+	0%{background-color: white; left: 0px; top: 0px; border-radius: 0 0 0 0;}
+	25%{background-color: orangered;left: 300px; top: 0px; border-radius: 50% 0 0 0;}
+	50%{background-color: greenyellow;left: 300px; top: 300px; border-radius: 50% 50% 0 0;}
+	75%{background-color: blueviolet;left: 0px; top: 300px; border-radius: 50% 50% 50% 0;}
+	100%{background-color: white;left: 0px; top: 0px; border-radius: 50% 50% 50% 50%;}	
+} */
+
+
+@keyframes myanimation{
+	0%{background-color: white;  border-radius: 0 0 0 0;}
+	25%{background-color: orangered; border-radius: 50% 0 0 0;}
+	50%{background-color: greenyellow; border-radius: 50% 50% 0 0;}
+	75%{background-color: blueviolet; border-radius: 50% 50% 50% 0;}
+	100%{background-color: white; border-radius: 50% 50% 50% 50%;}	
+}

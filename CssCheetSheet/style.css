@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #333;
+}
+
+
+.container{
+    padding:20px;
+    margin: 20px;
+}
+
+.box2 {
+    background: lightblue;
+    border: 2px solid blueviolet;
+    width: auto;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.box1 {
+    background: coral;
+    border: 2px solid brown;
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box3 {
+    background: lightgreen;
+    border: 2px solid darkgoldenrod;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding:10px;
+}
+
+.box3 ul{
+    list-style: none;
+    
+}
+
+.box3 ul li{
+    padding-bottom: 10px;
+    display:block;
+    border-bottom:1px #666 dotted;
+    padding-top: 4px;
+    font: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-transform: capitalize;
+}
+

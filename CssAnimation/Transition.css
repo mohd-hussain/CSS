@@ -1,0 +1,34 @@
+body{
+	background-color: #333;
+}
+
+.box{
+    background: white;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    /* transition-property: background,border-radius,transform; */
+    /* transition-duration: 1s ,3s;   for diffrent both the properties (background and border-radius) */
+    transition-property: all;
+    transition-duration: 1s;
+    /* transition-delay: 2s; */
+    transition-timing-function: ease-in;
+    /* transition-timing-function: ease-out; */
+}
+
+.box:hover{
+    background: red;
+
+    border-radius: 25% 25% 25% 25%;
+
+    /* transform:rotateY(180deg); */
+    /* transform: rotateX(180deg); */
+    transform: rotateZ(180deg);
+
+}
+
+/* .box:active{
+    background: red;
+} */
